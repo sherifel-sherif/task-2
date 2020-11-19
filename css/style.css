@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.divlogo{
+    width:  15%;
+    float: left;
+    padding-top: 18px;
+    padding-bottom: 5px;
+    z-index: 98;
+    position: relative;
+    margin-left: 25px;
+
+}
+.logo{
+    color:white;
+    z-index: 98;
+}
+.nav{
+    float: right;
+    background-color: rgb(46, 46, 156);
+    text-align: center;
+    width: 25%;
+    height: 721px;
+    padding: 20px;
+    color: white;
+    margin: 0;
+    opacity: 0.5;
+    position: relative;
+    z-index: 99;
+    font-size: 20px;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.ulLinks{
+    height: 100%;
+    width: 100%;
+}
+.navLink{
+    color: white;
+ 
+}
+.ll{
+    margin-bottom: 60px;
+}
+.sl{
+    margin-bottom: 70px;
+    padding: 10px;
+    cursor: pointer;
+}
+.menuIcon{
+    background-color: rgb(9, 9, 58);
+    padding: 10px;
+    
+}
+.formsec{
+        position: relative;
+        background-image: url(../img.jpg);
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+        height: 721px;
+        z-index: 3;
+}
+.form{
+    width: 30%;
+    height: 65%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.formfinal{
+    background-color: white;
+    height: 100%;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px grey;
+    padding: 55px;
+}
+.form-title{
+    color: rgb(29, 29, 185);
+    margin-bottom: 16px;
+}
+.form-login{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.inputwithIcon i{
+    color: gray;
+
+}
+.contact-form-input{
+    color: gray;
+    padding-left:20px ;
+    padding-right:20px ;
+    text-align: center;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px gray;
+    margin-bottom: 10px;
+}
+.contact-form-btn{
+    height: 30px;
+    padding-left:50px ;
+    padding-right:50px ;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(21, 21, 153);
+    margin-bottom: 10px;
+}
